@@ -9,7 +9,7 @@ const request = require("axios");
 const firebaseAdmin = require("firebase-admin");
 
 // 위치는 service-account.json을 동일한 폴더 app.js에 수동으로 넣어야 합니다.
-const serviceAccount = require("../../public/service-account.json");
+const serviceAccount = require("../../service-account.json");
 
 // 엑세스 토큰 기반으로 사용자 프로필 조회를 위한 카카오 API 요청 url
 const requestMeUrl = "https://kapi.kakao.com/v2/user/me?secure_resource=true";

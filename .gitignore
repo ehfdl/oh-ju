@@ -41,4 +41,4 @@ next-env.d.ts
 components/dropdown.jsx
 
 # account
-/public/service-account.json
+service-account.json
